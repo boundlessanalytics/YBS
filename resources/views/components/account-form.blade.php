@@ -1,4 +1,3 @@
-<!-- resources/views/components/account-form.blade.php -->
 <form action="{{ $action }}" method="{{ $method ?? 'POST' }}">
     @csrf
 
